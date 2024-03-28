@@ -1,0 +1,7 @@
+package hdh.spring.springsecurity.exceptions;
+
+public class InvalidParamException extends Exception {
+    public InvalidParamException(String message) {
+        super(message);
+    }
+}
